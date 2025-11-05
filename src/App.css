@@ -1,0 +1,176 @@
+/*css for login page */
+
+.login-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  padding: 30px 25px;
+  background: linear-gradient(135deg, #a1b1c2, #357abd);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.input-email,
+.input-password {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: -4px;
+  border: none;
+  border-radius: 6px;
+  font-size: 5px;
+  outline: none;
+  background: #fff;
+  color: black;
+}
+
+.input-email:focus,
+.input-password:focus {
+  border: 2px solid #fff;
+  background: #eef6ff;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #357abd;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-page button:hover {
+  background: #f1f1f1;
+  transform: scale(1.02);
+}
+
+.login-page p {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-page a span {
+  color: #ffeb3b !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-page a span:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+
+/*css for register page*/
+
+.register-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  padding: 30px 25px;
+  background: linear-gradient(135deg, #a1b1c2, #357abd);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-page h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.name {
+  gap: 25px;
+  border-radius: 1px;
+}
+
+.input-name {
+  width: 50%;
+  display: block;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  color: black;
+}
+
+.input-email,
+.input-password {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+  color: black;
+}
+
+.input-email:focus,
+.input-password:focus {
+  border: 2px solid #fff;
+  background: #eef6ff;
+}
+
+.register-page button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #357abd;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-page button:hover {
+  background: #f1f1f1;
+  transform: scale(1.02);
+}
+
+.register-page p {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.register-page a span {
+  padding-left: 2px;
+  color: #ffeb3b !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.register-page a span:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
